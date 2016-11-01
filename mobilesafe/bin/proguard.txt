@@ -1,0 +1,143 @@
+# view AndroidManifest.xml #generated:200
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class cn.itcast.mobilesafe.MobileSafeApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class cn.itcast.mobilesafe.activity.AddIpCallActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class cn.itcast.mobilesafe.activity.AddressQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class cn.itcast.mobilesafe.activity.AppLockManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class cn.itcast.mobilesafe.activity.AppManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class cn.itcast.mobilesafe.activity.AtoolsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class cn.itcast.mobilesafe.activity.BlackNumberListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class cn.itcast.mobilesafe.activity.CommonNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class cn.itcast.mobilesafe.activity.ContactListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class cn.itcast.mobilesafe.activity.DragViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class cn.itcast.mobilesafe.activity.EnterPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class cn.itcast.mobilesafe.activity.LostProtectedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class cn.itcast.mobilesafe.activity.LostProtectedSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class cn.itcast.mobilesafe.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class cn.itcast.mobilesafe.activity.SettingCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class cn.itcast.mobilesafe.activity.Setup1ConfigActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class cn.itcast.mobilesafe.activity.Setup2ConfigActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class cn.itcast.mobilesafe.activity.Setup3ConfigActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class cn.itcast.mobilesafe.activity.Setup4ConfigActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class cn.itcast.mobilesafe.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class cn.itcast.mobilesafe.activity.TaskManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class cn.itcast.mobilesafe.activity.TaskManagerSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class cn.itcast.mobilesafe.activity.TrafficManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class cn.itcast.mobilesafe.provider.AppLockProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class cn.itcast.mobilesafe.receiver.BootCompleteReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class cn.itcast.mobilesafe.receiver.KillProcessReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class cn.itcast.mobilesafe.receiver.MyAdmin { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class cn.itcast.mobilesafe.receiver.PhoneReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class cn.itcast.mobilesafe.receiver.ProcessReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class cn.itcast.mobilesafe.receiver.SmsRecevier { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class cn.itcast.mobilesafe.service.AppLockService { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class cn.itcast.mobilesafe.service.AutoClearService { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class cn.itcast.mobilesafe.service.BackupSmsService { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class cn.itcast.mobilesafe.service.BlackNumberService { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class cn.itcast.mobilesafe.service.ProcessWidgetService { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class cn.itcast.mobilesafe.service.ShowAddressService { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class net.youmi.android.AdActivity { <init>(...); }
+
+# onClick res/layout/add_ipcall.xml #generated:25
+-keepclassmembers class * { *** add(...); }
+
+# onClick res/layout/task_manager.xml #generated:95
+-keepclassmembers class * { *** displaysetup(...); }
+
+# onClick res/layout/task_manager.xml #generated:89
+-keepclassmembers class * { *** kill_process(...); }
+
+# onClick res/layout/setup1config.xml #generated:89
+# onClick res/layout/setup2config.xml #generated:55
+# onClick res/layout/setup3config.xml #generated:49
+# onClick res/layout/setup4config.xml #generated:45
+-keepclassmembers class * { *** next(...); }
+
+# onClick res/layout/enter_password.xml #generated:42
+-keepclassmembers class * { *** ok(...); }
+
+# onClick res/layout/setup2config.xml #generated:52
+# onClick res/layout/setup3config.xml #generated:46
+# onClick res/layout/setup4config.xml #generated:42
+-keepclassmembers class * { *** pre(...); }
+
+# onClick res/layout/address_query.xml #generated:25
+-keepclassmembers class * { *** query(...); }
+
+# onClick res/layout/setup3config.xml #generated:23
+-keepclassmembers class * { *** select_contact(...); }
+
